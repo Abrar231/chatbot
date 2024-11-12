@@ -3,7 +3,6 @@
 import type {ChatType} from '@/lib/types'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
 interface Props {
     chat: ChatType
 }
